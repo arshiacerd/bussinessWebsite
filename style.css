@@ -1,0 +1,208 @@
+header{
+    background-color:#180D2E;
+    color: white;
+    height:170px;
+    text-align: center;
+    line-height: 210px;
+}
+
+.navbar{
+    background-color: #202022 !important;
+}
+nav>div>ul>li>a{
+    text-transform: uppercase;
+   
+}
+li {
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+font-size: 15px;
+font-weight: bold;
+
+  }
+  .active>a,li> a:hover{
+color: #C0982B !important;
+  }
+ .top{
+    background-color: #202022 !important;
+   
+    height: 30px;
+   
+    line-height: 30px;
+    text-transform: uppercase;
+ }  
+ .top>a{
+    position: absolute;
+    right:50px;
+    color:#DFE5E5;
+    text-decoration: none;
+    
+ }
+ .top>a:hover{
+     text-decoration: underline;
+     display: block;
+ }
+ .w-100{
+     height:700px;
+ }
+ 
+#topbtn{
+    color:black;
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.booking{
+    height:170px;
+    background-color: #1C0329;
+    text-align: center;
+    line-height: 50px;
+    color:wheat;
+    
+
+}
+.booking> .div1{
+ background-color:#5E25A8;
+ display: flex;
+ justify-content: center;
+ margin-left: 500px;
+ margin-right: 500px;
+ text-transform: uppercase;
+ cursor: pointer;
+ position: relative;
+ top:40px;
+}
+.booking .div2{
+    margin-top:50px;
+    font-size: 20px;
+    
+}
+.booking> .div1:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.main > span{
+    text-transform:uppercase;
+    font-size: 40px;
+    margin-top: 50px;
+    
+    display: flex;
+    justify-content: center;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+}
+.box1,.box2,.box3,.box4{
+    margin-top: 40px;
+    height: 110px;
+    width: 120px;
+    background-color: #C0982B;
+}
+.main>div>div>i{
+    color: black;
+    font-size: 70px;
+   
+  margin-left:  29px;
+    margin-top:20px; 
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+.main div .box4 i{
+    margin-left: 40px;
+}
+.text
+{
+
+    font-size: 16px ;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: #C0982B;
+    font-weight: bold;
+   display: block;
+   
+}
+.text1{
+    position: absolute;
+    left: 100px;
+}
+.text3{
+    position: absolute;
+    left:715px;
+}
+.text4{
+    position: absolute;
+    left:1036px;
+}
+    .text2{
+    position: absolute;
+    left:450px;
+}
+.reason{
+    margin-top:50px;
+    height: 200px;
+    background-color: #14343F;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #DFE5E5;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.reason>p{
+    color: gray;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+@media  (max-width:515px)
+{
+    .booking{
+        height:195px;
+        background-color: #1C0329;
+        text-align: center;
+        line-height: 20px;
+        color:wheat;
+        
+    
+    }
+    .booking> .div1{
+        background-color:#5E25A8;
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+        margin-right: 150px;
+        text-transform: uppercase;
+        cursor: pointer;
+        position: relative;
+        top:40px;
+        width: 200px;
+        height: 40px;
+line-height: 40px;    
+        
+       }
+
+    .booking .div2{
+        margin-top:80px;
+        font-size: 15px;
+        
+    }   
+    
+}
+
+
+
+@media  (max-width:721px){
+    header{
+       font-size: 18px;
+       position: absolute;
+       top:20px;
+    }
+   .navbar,nav>div>ul>li>a{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+   }
+}
